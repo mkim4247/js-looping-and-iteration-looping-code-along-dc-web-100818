@@ -1,15 +1,7 @@
 // Code your solutions in this file
-function printBadges(arr) {
-  for(let i = 0; i < arr.length; i++) {
-    console.log(`Welcome ${arr[i]}! You are employee #${i+1}.`);
-  }
-  return arr;
+// Code your solutions in this file
+function writeCards(names, event) {
+  for (let i = 0; i < names.length; i++);
+  console.log(`Thanks you, ${names[i]}, for the wonderful gift!);
 }
 
-function tailsNeverFails() {
-  let counter = 0;
-  while (Math.random() >= 0.5) {
-    counter ++
-  }
-  return `You got ${counter} tails in a row!`
-}
