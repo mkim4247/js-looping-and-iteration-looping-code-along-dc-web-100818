@@ -6,3 +6,7 @@ function writeCards(names, event) {
 writeCards(["Ada", "Brendan", "Ali"], "birthday");
 
 // Code your solutions in this file
+let i = 0;
+while (i < 10) {
+  console.log(i--);
+}
